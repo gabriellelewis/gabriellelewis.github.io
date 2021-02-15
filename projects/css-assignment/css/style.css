@@ -1,0 +1,38 @@
+h1 {
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #c20e17;
+}
+
+h3 {
+	font-family: Helvetica;
+	font-style: italic;
+	color: #91110f;
+}
+
+h5 {
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: lighter;
+}
+
+h5.biobox {
+	font-family: Georgia;
+	color: gray;
+	font-weight: lighter;
+}
+
+p {
+	font-family: Arial;
+}
+
+p.caption {
+	font-style: italic;
+	color: gray;
+	font-size: 11px;
+}
+
+img {
+	height: 600px;
+	width: 800px;
+}
