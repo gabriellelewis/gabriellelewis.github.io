@@ -18,11 +18,13 @@ h5 {
 
 h5.biobox {
 	font-family: Georgia;
-	color: gray;
+	color: black;
+	background-color: #babcbf;
+	opacity: 50%;
 	font-weight: lighter;
 }
 
-p {
+.body {
 	font-family: Arial;
 }
 
