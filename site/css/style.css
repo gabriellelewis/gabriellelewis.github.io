@@ -15,6 +15,18 @@
 	color: gray;
 }
 
+.section-head {
+	font-family: 'Shippori Mincho', serif;
+	font-weight: 500px;
+	color: black;
+}
+
+.subsection-head {
+	font-family: 'Karla', sans-serif;
+	font-weight: 400px;
+	color: black;
+}
+
 #contact-heading {
 	font-family: 'Shippori Mincho', serif;
 	font-weight: 500px;
@@ -38,6 +50,13 @@ p {
 	font-size: 16px;
 }
 
+.info {
+	font-family: 'Karla', sans-serif;
+	color: black;
+	font-size: 16px;
+	line-height: .5;
+}
+
 #about {
 	font-family: 'Shippori Mincho', serif;
 	color: white;
@@ -51,7 +70,7 @@ p {
 	margin-right: auto;
 }
 
-.container {
+.about-container {
 	background-color: #dedede;
 	width: 60%;
 	padding-right: 50px;
@@ -60,6 +79,15 @@ p {
 	padding-bottom: 25px;
 	text-align: left;
 
+}
+
+.container {
+	width: 80%;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: left;
 }
 
 #about-image{
