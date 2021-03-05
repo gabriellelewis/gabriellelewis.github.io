@@ -78,7 +78,9 @@ p {
 	padding-top: 25px;
 	padding-bottom: 25px;
 	text-align: left;
-
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 .container {
