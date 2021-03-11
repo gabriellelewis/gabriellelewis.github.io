@@ -1,0 +1,160 @@
+/*	NAV		*/
+
+.navbar-brand {
+font-family: 'Shippori Mincho', serif;
+color: black;
+font-style: bold;
+}
+
+.nav-item {
+font-family: 'Karla', sans-serif;
+text-transform: lowercase
+}
+
+/*	HEADINGS 	*/	
+
+
+.heading{
+text-align: center;
+
+}
+
+.heading h1{
+font-family: 'Shippori Mincho', serif;
+font-weight: 500;
+color: black;
+font-size: 68px;
+}
+
+.heading h3{
+	font-size: 36px;
+}
+
+.heading a{
+	font-size: 16px;
+}
+
+.heading h3,
+.heading a{
+font-family: 'Karla', sans-serif;
+font-weight: 400;
+font-style: italic;
+color: gray;
+}
+
+/* 	FULL PAGE 	*/
+
+.resume li,
+p {
+font-family: 'Karla', sans-serif;
+color: black;
+font-size: 16px;
+}
+
+
+/* 	SPACING */
+
+.heading,
+.about{
+margin-top:2%;
+margin-bottom:2%;
+}
+
+footer{
+padding-top:2%;
+padding-bottom:2%;
+}
+
+/*	ABOUT PAGE */
+
+.box {
+background-color: #dedede;
+}
+
+.about{
+padding:5%;
+}
+
+/*.about h3{
+font-family: 'Shippori Mincho', serif;
+color: white;
+
+}
+*/
+
+.about em{
+font-weight:bolder;
+color:grey;
+}
+
+
+/*	FOOTER 	*/
+footer{
+font-family: 'Karla', sans-serif;
+color: black;
+text-transform: lowercase;
+text-align: center;
+line-height:.5;
+
+
+}
+
+
+footer h5 {
+font-family: 'Shippori Mincho', serif;
+font-weight: 500;
+color: black;
+}
+
+footer a{
+
+text-decoration: none;
+color:black;
+font-weight: bolder;
+}
+
+
+
+
+/* 	RESUME 	*/
+
+section{
+	padding-bottom:2%;
+}
+
+.resume h2 {
+font-family: 'Shippori Mincho', serif;
+font-weight: 500;
+color: black;
+}
+
+.resume h3 {
+font-family: 'Karla', sans-serif;
+font-weight: 500;
+color: black;
+font-size:18px;
+letter-spacing:1.2px;
+padding-bottom:2%;
+padding-top:1%;
+
+}
+
+.resume h4 {
+font-family: 'Karla', sans-serif;
+color: gray;
+font-size: 16px;
+font-style:italic;
+}
+
+.info{
+	padding-left:5%;
+}
+.resume p{
+margin:0;
+padding:0;
+}
+
+.resume li{
+	list-style-type:none;
+}
+
