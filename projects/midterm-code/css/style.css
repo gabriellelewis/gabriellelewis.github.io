@@ -1,4 +1,147 @@
+/* Navbar */
+
+.navbar {
+	background-color: white;
+}
+/* Body */
+
 body {
 	background-color: #fc5f1a;
 	font-family: 'Nunito Sans', sans-serif;
+}
+/* Headings */
+
+.heading {
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	padding-top: 5%;
+	color: #010833;
+}
+.sm-head {
+	font-size: 60px;
+}
+.lg-head {
+	font-size: 120px;
+}
+/* Text */
+
+.bio {
+	padding-top: 3%;
+	padding-bottom: 5%;
+}
+p.bio-text {
+	text-align: center;
+	line-height: 1;
+	color: #010833;
+}
+p.story, .hyphen {
+	color: #010833;
+	font-size: 18px;
+}
+strong {
+	font-weight: 500px;
+}
+.credit {
+	font-size: 14px;
+}
+/*Links*/
+
+a {
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+	text-decoration-color: #ffa500;
+}
+/* Images */
+
+.block-display {
+	display: block;
+	background-color: white;
+	align-items: center;
+	margin: 0 auto 0 auto;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+/* Behind the Hyphens */
+
+.box {
+	background-color: white;
+}
+.hyphen {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.title-box {
+	background-color: #010833;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.hyphen-head {
+	font-family: 'Anton', sans-serif;
+	color: #ffa500;
+	font-size: 70px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.hyphen-org {
+	color: #ffa500;
+	font-size: 18px;
+	font-weight: 500px;
+	letter-spacing: 1.5px;
+}
+.hyphen-name {
+	color: #010833;
+	font-family: 'Anton', sans-serif;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+}
+.description {
+	font-weight: 200px;
+	font-size: 16px;
+	color: #010833;
+}
+/* Credits */
+
+hr {
+	border-top: 2px white solid;
+	width: 25%;
+	margin: 0 auto;
+}
+/* Media Queries */
+
+@media only screen and (max-width: 576px) {
+	.sm-head {
+		font-size: 37px;
+	}
+	.lg-head {
+		font-size: 85px;
+	}
+	p.story, .hyphen {
+		color: #010833;
+		font-size: 15px;
+		line-height: 1.75;
+	}
+	.description {
+		font-weight: 200px;
+		font-size: 15px;
+		color: #010833;
+		line-height: 1.75;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.hyphen {
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.hyphen-name {
+		padding-left: 2%;
+		padding-right: 2%;
+	}
 }
