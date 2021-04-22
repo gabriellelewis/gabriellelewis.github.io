@@ -1,0 +1,36 @@
+/* headings */
+.heading {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+#hed {
+	font-size: 120px;
+	color: white;
+	opacity: 90%;
+	text-align: center;
+}
+
+
+/* HED section */
+.hed-container {
+	position: relative;
+}
+
+
+
+/* body */
+
+body {
+	background-color: white;
+}
+
+.story p{
+	font-family: 'PT Sans', sans-serif;
+	color: #585858;
+}
+
+/* images */
+
+.img-fluid{
+	position: absolute;
+}
