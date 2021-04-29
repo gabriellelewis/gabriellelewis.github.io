@@ -1,36 +1,66 @@
 /* headings */
 .heading {
 	font-family: 'Fjalla One', sans-serif;
-}
-
-#hed {
-	font-size: 120px;
 	color: white;
-	opacity: 90%;
 	text-align: center;
+	padding: 2%;
 }
 
-
-/* HED section */
-.hed-container {
-	position: relative;
+.heading h1{
+	font-size: 120px;
+	top: 200px;
 }
 
+.heading h3{
+	font-size: 65px;
+	top: 500px;
+}
 
+.hed-block{
+	background-color: black;
+	opacity: 75%;
+	position: absolute;
+	width: 100%;
+	top: 150px;
+	padding-right: 3%;
+	padding-left: 3%;
+}
+
+.subhead-block{
+	background-color: black;
+	opacity: 75%;
+	width: 100%;
+}
+
+/* other text */
+
+.byline, .story {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.byline {
+	color: white;
+	text-align: center;
+	padding: 3%;
+	font-size: 50px;
+	opacity: 100%;
+}
+
+.story {
+	color: #484848;
+	font-size: 18px;
+	padding: 1%;
+}
 
 /* body */
 
 body {
 	background-color: white;
-}
-
-.story p{
 	font-family: 'PT Sans', sans-serif;
-	color: #585858;
 }
 
 /* images */
 
-.img-fluid{
-	position: absolute;
+img {
+	width: 100%;
 }
