@@ -19,7 +19,6 @@
 .hed-block{
 	background-color: black;
 	opacity: 75%;
-	position: absolute;
 	width: 100%;
 	top: 150px;
 	padding-right: 3%;
@@ -59,8 +58,13 @@ body {
 	font-family: 'PT Sans', sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 /* images */
 
 img {
 	width: 100%;
+	position: relative;
 }
