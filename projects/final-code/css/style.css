@@ -20,9 +20,10 @@
 	background-color: black;
 	opacity: 75%;
 	width: 100%;
-	top: 150px;
+	top: 300px;
 	padding-right: 3%;
 	padding-left: 3%;
+	position: absolute;
 }
 
 .subhead-block{
@@ -33,7 +34,7 @@
 
 /* other text */
 
-.byline, .story {
+.byline, .story, .caption {
 	font-family: 'PT Sans', sans-serif;
 }
 
@@ -49,6 +50,11 @@
 	color: #484848;
 	font-size: 18px;
 	padding: 1%;
+}
+
+.caption {
+	color: #C0C0C0;
+	font-size: 12px;
 }
 
 /* body */
