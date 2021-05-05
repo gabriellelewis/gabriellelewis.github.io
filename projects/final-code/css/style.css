@@ -77,29 +77,9 @@ img {
 
 /* media query */
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
 	.hed-block{
-	top: 200px;
-}
-
-	.heading h1{
-	font-size: 55px;
-}
-
-.heading h3{
-	font-size: 25px;
-}
-
-.byline {
-	padding: 2%;
-	font-size: 20px;
-}
-
-}
-
-@media (max-width: 768px) {
-	.hed-block{
-	top: 175px;
+	top: 250px;
 }
 
 	.heading h1{
@@ -117,7 +97,27 @@ img {
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 800px) {
+	.hed-block{
+	top: 175px;
+}
+
+	.heading h1{
+	font-size: 45px;
+}
+
+.heading h3{
+	font-size: 25px;
+}
+
+.byline {
+	padding: 2%;
+	font-size: 13px;
+}
+
+}
+
+@media (max-width: 540px) {
 	.hed-block{
 	top: 150px;
 }
