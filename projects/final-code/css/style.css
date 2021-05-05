@@ -74,3 +74,65 @@ img {
 	width: 100%;
 	position: relative;
 }
+
+/* media query */
+
+@media (max-width: 1024px) {
+	.hed-block{
+	top: 200px;
+}
+
+	.heading h1{
+	font-size: 55px;
+}
+
+.heading h3{
+	font-size: 25px;
+}
+
+.byline {
+	padding: 2%;
+	font-size: 20px;
+}
+
+}
+
+@media (max-width: 768px) {
+	.hed-block{
+	top: 175px;
+}
+
+	.heading h1{
+	font-size: 75px;
+}
+
+.heading h3{
+	font-size: 50px;
+}
+
+.byline {
+	padding: 2%;
+	font-size: 18px;
+}
+
+}
+
+@media (max-width: 375px) {
+	.hed-block{
+	top: 150px;
+}
+
+	.heading h1{
+	font-size: 35px;
+}
+
+.heading h3{
+	font-size: 16px;
+}
+
+.byline {
+	padding: 2%;
+	font-size: 9px;
+}
+
+}
