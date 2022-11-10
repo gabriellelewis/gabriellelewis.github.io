@@ -80,22 +80,22 @@ BODY {
 /* LINK STYLES */
 
 a:link {
-  color:#991b1e;
+  color:#38a6a5;
     text-decoration:none;
 }
 
 a:hover {
-  color:#999999;
+  color:#38a6a5;
   text-decoration:underline;
 }
 
 a:visited {
-  color:#991b1e;
+  color:#93c2c1;
   text-decoration:none;
 }
 
 a:active {
-  color:#991b1e;
+  color:#93c2c1;
   text-decoration:none;
 }
 
